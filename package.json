@@ -17,5 +17,16 @@
   "homepage": "https://github.com/nickbalestra/cycle-scripts-es-webpack#readme",
   "bin": {
     "cycle-scripts": "./index.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "chalk": "^1.1.3",
+    "cross-spawn": "^4.0.2",
+    "dotenv": "^2.0.0",
+    "fs-extra": "^0.30.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
   }
 }
