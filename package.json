@@ -1,0 +1,21 @@
+{
+  "name": "cycle-scripts-es-webpack",
+  "version": "1.0.0",
+  "description": "create-cycle-app flavor using ES6 (babel) as language and Webpack as build tool",
+  "scripts": {
+    "test": "echo \"TODO\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickbalestra/cycle-scripts-es-webpack.git"
+  },
+  "author": "Nick Balestra <nick@balestra.ch>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickbalestra/cycle-scripts-es-webpack/issues"
+  },
+  "homepage": "https://github.com/nickbalestra/cycle-scripts-es-webpack#readme",
+  "bin": {
+    "cycle-scripts": "./index.js"
+  }
+}
