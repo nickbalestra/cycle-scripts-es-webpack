@@ -5,7 +5,7 @@ var ProgressBarPlugin = require('progress-bar-webpack-plugin');
 
 var config = {
   entry: [
-    'webpack-dev-server/client?http://localhost:8080',
+    'webpack-dev-server/client?http://localhost:8000',
     'webpack/hot/dev-server',
     './src/'
   ],
@@ -42,4 +42,4 @@ var server = new WebpackDevServer(compiler, {
     inline: true
   },
 });
-server.listen(8080);
+server.listen(8000);
